@@ -1,0 +1,114 @@
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # App Issue
+        Thanks for reporting a problem. Please fill out the details below so we can reproduce and fix it.
+  - type: dropdown
+    attributes:
+      label: Issue Type
+      description: What kind of problem are you seeing?
+      options:
+        - Crash
+        - Playback
+        - Download/Offline
+        - Sync/Progress
+        - Library/Metadata
+        - Login/Server Connection
+        - UI/Navigation
+        - Performance/Battery
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Issue Summary
+      description: A short description of the problem.
+      placeholder: Playback stops after a few minutes on Wi-Fi.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: Playback should continue without stopping.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Playback stops and the app shows a loading spinner.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Provide step-by-step instructions so we can reproduce it.
+      placeholder: |
+        1. Open the app.
+        2. Start playback on a book.
+        3. Lock the screen.
+        4. Wait 5 minutes.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - iOS (iPhone)
+        - iPadOS (iPad)
+        - macOS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Device Model
+      description: Device type and model.
+      placeholder: iPhone 15 Pro, iPad Pro 12.9-inch (6th gen), MacBook Air M2
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: OS Version
+      description: Include the full version.
+      placeholder: iOS 26.0, iPadOS 26.0, macOS 15.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: App Version
+      description: App version/build from Settings > About.
+      placeholder: 1.2.0 (120)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Audiobookshelf Server Info
+      description: Optional but helpful when relevant (server version, hosting, reverse proxy, etc.).
+      placeholder: Audiobookshelf 2.10.1 on Docker with Caddy reverse proxy.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots or Recordings
+      description: Attach images or videos that show the problem.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Anything else that might help (network type, steps tried, logs, etc.).
+      placeholder: Happens only on cellular; works on Wi-Fi. Low Power Mode is on.
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing Discussions and Issues to avoid duplicates.
+          required: true
+        - label: I can reproduce this issue consistently.
+          required: false
