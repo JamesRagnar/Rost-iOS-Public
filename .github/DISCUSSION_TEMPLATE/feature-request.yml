@@ -37,7 +37,7 @@ body:
     attributes:
       label: Similar Apps or References
       description: Links or screenshots from other apps that do this well.
-      placeholder: Audible's sleep timer UI: https://example.com/screenshot
+      placeholder: "Audible's sleep timer UI: https://example.com/screenshot"
     validations:
       required: false
   - type: dropdown
