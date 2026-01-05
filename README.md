@@ -14,4 +14,4 @@ Base deployment target: iOS 26.0.
 
 ## App Store
 
-Available on the [App Store](https://apps.apple.com/us/app/r%C3%B6st/id6739761060)
+Available on the [App Store](https://apps.apple.com/us/app/r%C3%B6st/id6739761060).
