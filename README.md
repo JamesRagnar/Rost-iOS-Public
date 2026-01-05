@@ -2,6 +2,8 @@
 
 Röst is a third-party iOS app for the open source [Audiobookshelf](https://github.com/advplyr/audiobookshelf) project.
 
+[![Dowload on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)]([target_url](https://apps.apple.com/us/app/r%C3%B6st/id6739761060))
+
 ## Platforms
 
 - iOS
@@ -11,7 +13,3 @@ Röst is a third-party iOS app for the open source [Audiobookshelf](https://gith
 ## Deployment Target
 
 Base deployment target: iOS 26.0.
-
-## App Store
-
-Available on the [App Store](https://apps.apple.com/us/app/r%C3%B6st/id6739761060).
