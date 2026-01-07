@@ -80,15 +80,22 @@ body:
   - type: input
     attributes:
       label: App Version
-      description: App version/build from Settings > About.
+      description: App version/build from Settings > Application.
+      placeholder: 1.2.0 (120)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Server Version
+      description: Audiobookshelf Server Version, found in Settings > Server.
       placeholder: 1.2.0 (120)
     validations:
       required: true
   - type: textarea
     attributes:
       label: Audiobookshelf Server Info
-      description: Optional but helpful when relevant (server version, hosting, reverse proxy, etc.).
-      placeholder: Audiobookshelf 2.10.1 on Docker with Caddy reverse proxy.
+      description: Optional but helpful when relevant (hosting, reverse proxy, etc.).
+      placeholder: Docker with Caddy reverse proxy.
     validations:
       required: false
   - type: textarea
