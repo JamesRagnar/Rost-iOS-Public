@@ -1,6 +1,6 @@
 # Privacy Policy for Röst
 
-_Last updated: September 15, 2025_
+_Last updated: 2026 01 24_
 
 Röst (“the App”) is provided by Ragnar Development (“we,” “our,” or “us”) as a mobile application available on the Apple App Store. Your privacy is important to us. This Privacy Policy explains how information is handled when you use Röst.
 
@@ -49,9 +49,7 @@ The App does rely on Apple’s operating system and App Store infrastructure, wh
 ---
 
 ## Contact
-If you experience issues or have privacy-related concerns, you may contact us by opening an issue on our public GitHub page:  
-
-👉 [https://github.com/JamesRagnar/Rost-iOS-Public/issues](https://github.com/JamesRagnar/Rost-iOS-Public/issues)
+If you experience issues or have privacy-related concerns, you may contact on our public [GitHub page](https://github.com/JamesRagnar/Rost-iOS-Public/discussions).
 
 ---
 
