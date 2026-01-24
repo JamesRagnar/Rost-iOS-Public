@@ -49,7 +49,7 @@ The App does rely on Apple’s operating system and App Store infrastructure, wh
 ---
 
 ## Contact
-If you experience issues or have privacy-related concerns, you may contact on our public [GitHub page](https://github.com/JamesRagnar/Rost-iOS-Public/discussions).
+If you experience issues or have privacy-related concerns, you may contact us on our public [GitHub page](https://github.com/JamesRagnar/Rost-iOS-Public/discussions).
 
 ---
 
